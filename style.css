@@ -196,6 +196,7 @@ a:visited{
 
     background-image: linear-gradient( rgb(129, 129, 218),rgb(163, 105, 105)); 
     
+
 }
 
 .div1{
@@ -203,7 +204,7 @@ a:visited{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-content: left;
     
 }   
@@ -212,13 +213,14 @@ a:visited{
 
 .div1__img{
 
-    font-size: 60px;
+    width: 240px;
+    height: 180px;
     text-decoration-line:underline;
     color: #000000;
     text-align: left;  
     margin-top:  10px;
     margin-bottom: 30px;
-    padding: 0;
+    
 
 }
 
@@ -269,8 +271,8 @@ a:visited{
     color: #000000;  
     font-size: 22px;
     text-align: center;
-    padding: 8px; 
-    
+    padding: 5px; 
+    margin-bottom: 30px; 
 
 }
 
@@ -285,8 +287,8 @@ a:visited{
 
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
     flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     
 } 
@@ -302,18 +304,14 @@ a:visited{
 
 .section__article--img{
     
-    width: 500px;
-    height: 400px;
+    width: 350px;
+    height: 320px;
     border: 3px solid #000000 ;
     
 }
 
 .section__article--p{
 
-    margin-top: 100px;
-    margin-bottom: 120px;
-    padding-top: 35px;
-    padding-bottom: 0px;
     width: 350px;
     height: 130px;
     font-size: 30px;
@@ -331,13 +329,14 @@ a:visited{
     flex-direction: row;
     justify-content: space-between;
     
+    
 }
 
 .footer__p{
 
-    font-size: 23px;
+    font-size: 18px;
     color: #000000;
-    border-bottom: 3px solid #f7a2e0;
+    border-bottom: 3px solid #000000;
 
 }
 
@@ -367,22 +366,10 @@ a:visited{
 #grilla{
 
     display: grid;
-    grid-template-areas: 
-    "header header header"
-    "section section section"
-    "footer footer footer";
-    
-}
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
 
-.header{
-    grid-area: header;
-  }
-.section{
-    grid-area: section;
-  }
-.footer{
-    grid-area:footer;
-  } 
+}
 
 }
 
@@ -558,7 +545,7 @@ a:visited{
     .body{
     
         background-image: linear-gradient( rgb(129, 129, 218),rgb(163, 105, 105)); 
-       
+
     }
     
     .divp{
@@ -566,20 +553,20 @@ a:visited{
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        justify-content: space-around;
-        align-content: left;
-        margin: 0;
-        padding: 0;
+        justify-content: center;
+        align-content: center;
+       
     
     }
     
-    
+
+
     .divp__h1{
      
         font-size: 50px;
         text-decoration-line:underline;
         color: #000000;
-        text-align: left;  
+        text-align: center;  
         margin-top: 10px;     
     
     }
@@ -589,9 +576,8 @@ a:visited{
         
         margin-top: 0;
         margin-bottom: 30px;
-        padding-left: 30px;
-        width: 240px;
-        height: 180px;
+        width: 200px;
+        height: 140px;
         animation-name: opacar;
         animation-duration: 2s;
         animation-iteration-count: initial;
@@ -615,12 +601,12 @@ a:visited{
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        justify-content: left; 
+        justify-content: left;
         text-decoration: none;
         animation-name: opacar;
         animation-duration: 2s;
         animation-iteration-count:initial;
-    
+        
     }
     
     @keyframes opacar{
@@ -642,9 +628,8 @@ a:visited{
         color: #000000;  
         font-size: 22px;
         text-align: center;
-        padding: 8px; 
-        margin-bottom: 50px;
-    
+        padding: 5px; 
+        margin-bottom: 20px; 
         
     }
     
@@ -661,10 +646,10 @@ a:visited{
     
         display: flex;
         flex-wrap: wrap;
+        flex-direction: column;
         justify-content: flex-start;
-        flex-direction: row;
-        justify-content: space-evenly;
         align-items: center;
+        margin-bottom: 70px;
     
     } 
     
@@ -676,30 +661,24 @@ a:visited{
         font-size: 40px;
         color: #000000;
         text-align: center;  
-        margin-bottom: 70px;
+        
         
     }
     
     
     .sectionp__articlep--imgp1{
     
-        width: 450px;
-        height: 390px;
+        width: 350px;
+        height: 320px;
     
     }
      
-       
     
     
     .sectionp__articlep--p1{
     
-        margin-left: 50px;
-        margin-top: 80px;
-        margin-bottom: 0px;
-        padding-top: 35px;
-        padding-bottom: 0px; 
-        width: 350px;
-        height: 130px;
+        width: 250px;
+        height: 100px;
         font-size: 25px;
         color: #000000;
         border: 3px solid #f7a2e0 ;
@@ -713,26 +692,21 @@ a:visited{
         font-size: 40px;
         color: #000000;
         text-align: center;
-        margin-bottom: 70px; 
+       
     
     }
     
     .sectionp__articlep--imgp2{
     
-        width: 450px;
-        height: 390px;
+        width: 350px;
+        height: 320px;
         
     }
     
     .sectionp__articlep--p2{
     
-        margin-left: 50px;
-        margin-top: 80px;
-        margin-bottom: 0px;
-        padding-top: 35px;
-        padding-bottom: 0px; 
-        width: 350px;
-        height: 130px;
+        width: 250px;
+        height: 100px;
         font-size: 25px;
         color: #000000;
         border: 3px solid #f7a2e0 ;
@@ -746,22 +720,11 @@ a:visited{
     #grilla{
     
         display: grid;
-        grid-template-areas: 
-        "header header header"
-        "section section section"
-        "footer footer footer";
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
         
     }
     
-    .header{
-        grid-area: header;
-      }
-    .section{
-        grid-area: section;
-      }
-    .footer{
-        grid-area:footer;
-      } 
     
     }
     
@@ -884,7 +847,7 @@ a:visited{
 .section__articlen--div2{
 
     margin-top: 125px;
-
+   
 }
 
 .sectionn__articlen--h32{
@@ -912,10 +875,9 @@ a:visited{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: left;
-    margin: 0;
-    padding: 0;
+    justify-content: center;
+    align-content: center;
+    
 }
 
 
@@ -924,9 +886,8 @@ a:visited{
     font-size: 50px;
     text-decoration-line:underline;
     color: #000000;
-    text-align: left;  
+    text-align: center;  
     margin-top: 10px;
-    padding: 0;
 
 }
 
@@ -936,8 +897,9 @@ a:visited{
     
     margin-top: 0;
     margin-bottom: 30px;
-    width: 240px;
-    height: 180px;
+    margin-right: 30px;
+    width: 200px;
+    height: 140px;
     animation-name: opacar;
     animation-duration: 2s;
     animation-iteration-count: initial;
@@ -966,7 +928,8 @@ a:visited{
     animation-name: opacar;
     animation-duration: 2s;
     animation-iteration-count:initial;
-
+    margin-left: 30px;
+    
 }
 
 @keyframes opacar{
@@ -988,8 +951,8 @@ a:visited{
     color: #000000;  
     font-size: 22px;
     text-align: center;
-    padding: 8px; 
-    margin-bottom: 50px;
+    padding: 5px; 
+    margin-bottom: 20px;
 
     
 }
@@ -1003,48 +966,41 @@ a:visited{
 
 
 
-.sectionn__articleq{
+.sectionn__articlen{
 
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: flex-start;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-content: center;
+    align-items: center;
+   
 
 }
 
 
-.sectionn__articleq--h31{
+.sectionn__articlen--h31{
 
-    font-size: 40px;
+    font-size: 35px;
     color: #000000;
-    text-align: left;    
+    text-align: center;  
+    margin-bottom: 50px;  
 
 }
 
-.sectionn__articleq--p{
+.sectionn__articlen--p{
 
     overflow-y: scroll;
-    padding: 20px;
-    width: 450px;
-    height: 390px;
+    width: 280px;
+    height: 450px;
     font-size: 20px;
     border: 3px solid #f7a2e0 ;
     color: #000000;
 
 }
 
-.section__articleq--div2{
+.section__articlen--div2{
 
-    margin-bottom: 0;
-}
-
-.sectionn__articleq--h32{
-
-    font-size: 20px;
-    color: #000000;
-    text-align: center; 
+    display: none;
 
 }
 
@@ -1055,22 +1011,10 @@ a:visited{
 #grilla{
 
     display: grid;
-    grid-template-areas: 
-    "header header header"
-    "section section section"
-    "footer footer footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     
 }
-
-.header{
-    grid-area: header;
-  }
-.section{
-    grid-area: section;
-  }
-.footer{
-    grid-area:footer;
-  } 
 
     
 }
@@ -1206,11 +1150,9 @@ a:visited{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: left;
-    margin: 0;
-    padding: 0;
-   
+    justify-content: center;
+    align-content: center;
+
 }
 
 
@@ -1219,9 +1161,8 @@ a:visited{
     font-size: 50px;
     text-decoration-line:underline;
     color: #000000;
-    text-align: left;  
+    text-align: center;  
     margin-top: 10px;
-    padding: 0; 
 
 }
 
@@ -1231,9 +1172,9 @@ a:visited{
 
     margin-top: 0;
     margin-bottom: 30px;
-    padding-left: 38px;
-    width: 240px;
-    height: 180px;
+    /* padding-left: 38px; */
+    width: 200px;
+    height: 140px;
     animation-name: opacar;
     animation-duration: 2s;
     animation-iteration-count: initial;
@@ -1283,8 +1224,8 @@ a:visited{
     color: #000000;  
     font-size: 22px;
     text-align: center;
-    padding: 8px; 
-    margin-bottom: 50px;
+    padding: 5px; 
+    margin-bottom: 20px;
 
 }
 
@@ -1299,10 +1240,10 @@ a:visited{
 
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: left;
-    margin-left: 50px;
     list-style:disc;
+    margin-left: 0;
 
 
 }
@@ -1311,9 +1252,9 @@ a:visited{
 
 .sectioni__articlei--ul--lii{
       
-    font-size: 40px;
+    font-size: 35px;
     color: #000000;
-    text-align: center; 
+    text-align: left; 
     text-decoration: underline; 
     text-decoration-color: #f7a2e0;
 
@@ -1323,7 +1264,7 @@ a:visited{
 
 .pi{
 
-    margin-top: 20px;
+    margin-top: 15px;
     color: black;
     font-size: 18px;
     text-align: left;
@@ -1337,24 +1278,11 @@ a:visited{
 #grilla{
 
     display: grid;
-    grid-template-areas: 
-    "header header header"
-    "section section section"
-    "footer footer footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     
 }
 
-.header{
-    grid-area: header;
-  }
-.section{
-    grid-area: section;
-  }
-.footer{
-    grid-area:footer;
-  } 
-
-    
 
 
 }
@@ -1478,7 +1406,7 @@ a:visited{
 
 .divsoporte1__divsopor{
 
-    margin-top: 5px;
+    margin-top: 40px;
     margin-right: 30px;
     font-size: 26px;
 }
@@ -1602,11 +1530,8 @@ label{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: space-around;
-    align-content: left;
-    margin: 0;
-    padding: 0;
-   
+    justify-content: center;
+    align-content: center;
 
 } 
 
@@ -1617,8 +1542,7 @@ label{
     font-size: 50px;
     text-decoration-line:underline;
     color: #000000;
-    text-align: left;  
-    padding: 0;
+    text-align: center;  
 
 }
 
@@ -1655,8 +1579,8 @@ label{
     color: #000000;  
     font-size: 22px;
     text-align: center;
-    padding: 8px;
-
+    padding: 5px;
+    margin-bottom: 20px;
 }
 
 
@@ -1667,78 +1591,93 @@ a:visited{
     
 }
 
+
+
 .fieldsetc{
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-    flex-direction: row;
-    justify-content: space-between;
     border: 3px solid #000000;
-    
+       
 }
 
 
 .legendc{
 
-    font-size: 38px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    font-size: 25px;
+    font-weight: bolder;
     color:  #000000;
     
 }
 
 
-.divdatos{
-   
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-
-}
 
 .divsoporte1{
 
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row;
-    justify-items: left;
+    flex-direction: column;
+    justify-content: flex-start;
     
 }
 
 
+ .divsoporte1__divsopor2{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: left;
+    align-content: flex-start; 
+   
+    
+
+} 
+
+
 .divsoporte1__divsopor2--divsoporte2{
 
-    padding: 10px;
-    font-size: 26px;
-
-}
+    padding: 0;
+    font-size: 16px;
+    
+} 
 
 .divsexo{
 
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 25px;
 
 }
 
-input,textarea{
+textarea{
 
-    margin-bottom: 20px;
     background-color: #000000;
     color: #f7a2e0;
-    font-size: 20px;
+    font-size: 14px;
     transition: all 0s;
+    width: 300px;
 
 }
 
-input:focus{
 
-    font-size: 25px;
+.input{
+    font-size: 10px;
+    transition: all 0s; 
+
+}
+
+.input:focus{
+
+    font-size: 20px;
 
 }
 
 textarea:focus{
 
-    font-size: 25px;
+    font-size: 20px;
 
 }
 
@@ -1748,7 +1687,7 @@ textarea:focus{
 select{
     background-color: #000000;
     color: #f7a2e0;
-    font-size: 18px;
+    font-size: 14px;
 
 }
 
@@ -1757,14 +1696,14 @@ select:hover{
 
     background-color: #000000;
     color: #f7a2e0;
-    font-size: 15px;
+    font-size: 12px;
 
 }
 
 label{
 
     color: #000000;
-    font-size: 30px;
+    font-size: 24px;
 
 }
 
@@ -1780,17 +1719,17 @@ label{
 
 .articlec__imgc{
     
-    margin-left: 30px;
+    
     margin-top: 50px;
-    width: 240px;
-    height: 180px;
+    width: 220px;
+    height: 160px;
 
 }
 
 
 .articlec__h3c{
 
-    font-size: 30px;
+    font-size: 20px;
     color: #000000;
     text-decoration-line: underline;
    
@@ -1802,22 +1741,12 @@ label{
 #grilla{
 
     display: grid;
-    grid-template-areas: 
-    "header header header"
-    "section section section"
-    "footer footer footer";
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
     
 }
 
-.header{
-    grid-area: header;
-  }
-.section{
-    grid-area: section;
-  }
-.footer{
-    grid-area:footer;
-  } 
+
 
 
 }
