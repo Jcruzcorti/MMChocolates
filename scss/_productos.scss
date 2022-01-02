@@ -1,0 +1,221 @@
+/* Inicio del producto*/
+
+.divp{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    .divp__h1{
+ 
+        margin-left: 10px;
+        font-size: 60px;
+        text-decoration-line:underline;
+        color: #000000;
+        text-align: center;  
+    
+    }
+    
+    .divp__img{
+    
+        margin-top: 100px;
+        margin-left: 200px; 
+        width: 250px;
+        height: 170px;
+    
+    }
+        
+}
+
+
+.sectionp__articlep{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+    .sectionp__article--imgnuevas1{
+
+        width: 350px;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    
+    .sectionp__article--imgnuevas2{
+    
+        width: 350px;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+    .sectionp__articlep--h21{
+    
+        font-size: 50px;
+        color: #000000;
+        text-align: center;  
+        
+    }
+    
+    .sectionp__articlep--h22{
+    
+        font-size: 50px;
+        color: #000000;
+        text-align: center; 
+    
+    }
+     
+        
+    .sectionp__articlep--p1{
+    
+        margin-left: 50px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        padding-top: 25px;
+        padding-bottom: 0px; 
+        width: 350px;
+        height: 130px;
+        font-size: 30px;
+        color: #000000;
+        border: 3px solid #000000 ;
+        text-align: center;
+    
+    } 
+    
+       
+    .sectionp__articlep--p2{
+    
+        margin-left: 50px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        padding-top: 25px;
+        padding-bottom: 0px; 
+        width: 350px;
+        height: 130px;
+        font-size: 30px;
+        color: #000000;
+        border: 3px solid #000000 ;
+        text-align: center;
+    } 
+    
+} 
+
+
+
+@media screen and (max-width: 768px) {
+
+    .body{
+    
+        background-color: #f3dbed;
+
+    }
+    
+    .divp{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        .divp__h1{
+     
+            font-size: 40px;
+            text-decoration-line:underline;
+            color: #000000;
+            text-align: center;  
+            margin-top: 10px;     
+        
+        }
+        
+    
+        .divp__img{
+            
+            margin-top: 0;
+            margin-bottom: 30px;
+            margin-left: 100px;
+            width: 180px;
+            height: 140px;
+            animation-name: opacar;
+            animation-duration: 2s;
+            animation-iteration-count: initial;
+        
+        }
+        
+        @keyframes opacar {
+            0%{
+            opacity: 0;
+            }
+        
+            100%{
+            opacity: 1;
+            }
+        }
+       
+    
+    }
+    
+    
+    .sectionp__articlep{
+    
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 70px;
+        .sectionp__articlep--h21{
+    
+            font-size: 30px;
+            color: #000000;
+            text-align: center;             
+            
+        }
+        
+        .sectionp__article--imgnuevas1{
+    
+            width: 250px;
+                  
+        }
+    
+    
+        .sectionp__articlep--h22{
+        
+            font-size: 30px;
+            color: #000000;
+            text-align: center;
+           
+        
+        }
+        
+    
+        .sectionp__article--imgnuevas2{
+    
+            width: 250px;
+           
+        } 
+    
+    } 
+    
+    
+    /* Inicio de grid en mediaq*/
+    
+    #grilla{
+    
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        
+    }
+    
+    
+    }
+    
+
+/* Fin del producto */

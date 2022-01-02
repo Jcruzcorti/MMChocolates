@@ -1,0 +1,29 @@
+// Compiladores
+$colores: (negro: #000000, rosaclaro: #f3dbed, rosa: #f7a2e0);
+
+
+*{
+    font-family: 'Shippori Antique', sans-serif;
+    
+}
+
+.body{
+    
+    background-color: map-get($map: $colores, $key:rosaclaro);
+    
+}
+
+
+// import
+
+@import "index";
+@import "productos";
+@import "nosotros";
+@import "info";
+@import "contacto";
+@import "compiladores";
+
+
+
+
+

@@ -1,0 +1,186 @@
+/* Inicio del Nosotros */
+
+.divn{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    .divn__h1{
+
+        margin-left: 10px;
+        margin-right: 40px;
+        font-size: 60px;
+        text-decoration-line:underline;
+        color: #000000;
+        text-align: center; 
+    } 
+       
+    .divn__img{
+     
+        margin-top: 100px;
+        margin-left: 190px;
+        width: 250px;
+        height: 170px;
+    
+    }
+
+}
+
+
+.sectionn__articlen{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    justify-content: space-evenly;  
+    margin-top: 30px;
+    margin-bottom: 100px;
+    .sectionn__articlen--h31{
+
+        margin-left: 20px;
+        font-size: 40px;
+        color: #000000;
+        text-align: center;  
+    
+    }
+    
+    .sectionn__articlen--p{
+    
+        overflow-y: scroll;
+        margin-left: 20px;
+        margin-bottom: 80px;
+        padding: 20px;
+        width: 450px;
+        height: 390px;
+        font-size: 20px;
+        border: 3px solid #000000 ;
+        color: #000000;
+    
+    }
+    
+    .section__articlen--div2{
+    
+        margin-top: 125px;
+       
+    }
+    
+    .sectionn__articlen--h32{
+    
+        margin-left: 20px;
+        font-size: 20px;
+        color: #000000;
+        text-align: center; 
+    
+    }
+    
+
+}
+
+
+
+
+@media  screen and (max-width:768px){
+
+.body{
+    
+   background-color: #f3dbed;
+       
+}
+
+.divn{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+    .divn__h1{
+ 
+        font-size: 40px;
+        text-decoration-line:underline;
+        color: #000000;
+        text-align: center;  
+        margin-top: 10px;
+    
+    }
+      
+    
+    .divn__img{
+        
+        margin-top: 0;
+        margin-bottom: 30px;
+        margin-left: 100px;
+        width: 180px;
+        height: 140px;
+        animation-name: opacar;
+        animation-duration: 2s;
+        animation-iteration-count: initial;
+    
+    }
+    
+    @keyframes opacar {
+        0%{
+        opacity: 0;
+        }
+    
+        100%{
+        opacity: 1;
+        }
+    }
+    
+}
+
+
+.sectionn__articlen--div1{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    .sectionn__articlen--h31{
+
+        font-size: 35px;
+        color: #000000;
+        text-align: center;  
+        margin-bottom: 50px;  
+    
+    }
+    
+    .sectionn__articlen--p{
+    
+        overflow-y: scroll;
+        width: 280px;
+        height: 450px;
+        font-size: 20px;
+        border: 3px solid #000000 ;
+        color: #000000;
+    
+    }
+    
+    .section__articlen--div2{
+    
+        display: none;
+    
+    }
+    
+
+}
+
+
+/* Inicio de grid en mediaq*/
+
+#grilla{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+    
+}
+
+/* Fin del Nosotros */

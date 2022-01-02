@@ -1,0 +1,296 @@
+/* Inicio del index */
+
+.div1{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    .div1__img{
+
+        width: 250px;
+        height: 170px;
+    }
+    
+}
+
+
+
+.nav{
+
+    font-size: 24px;
+    color: #000000;
+    animation-name: opacar;
+    animation-duration: 2s;
+    animation-iteration-count:initial;
+    margin-bottom: 200px;
+    @keyframes opacar{
+        0%{
+            opacity: 0;
+        }
+    
+        100%{
+            opacity: 1;
+        }
+    }
+    
+    a:visited{
+        text-decoration: none;
+        color: inherit;
+        
+    } 
+   
+
+}
+
+.section__article{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .section__article--h1{
+    
+        font-size: 80px;
+        color: #000000;
+        text-align: center;
+        margin-bottom: 80px; 
+            
+    }
+    
+    .section__article--imgnuevas{
+    
+        width: 500px;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        
+    } 
+    
+    
+    
+    
+    .section__article--p{
+    
+        margin-top: 50px;
+        margin-bottom: 200px;
+        padding: 15px;
+        font-size: 25px;
+        font-weight:bolder;
+        font-family: 'Shippori Antique', sans-serif;
+        color: #0f0404;
+        border: 3px solid #000000 ;
+        text-align: center;
+        
+    }
+
+
+    
+} 
+
+.footer{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    .divfooter0{
+
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+    
+    }
+    
+    .footer__img{
+    
+        width: 75px;
+        height: 60px;
+    
+    }
+    
+    .footer__p{
+        
+        font-size: 23px;
+        color: #000000;
+        border-bottom: 3px solid #f7a2e0;
+    
+    }
+    
+    .divfooter__img2{
+         
+        width: 65px;
+        height: 45px;
+        transition: all 1s;
+    
+    }
+    .divfooter__img2:hover{
+    
+        width: 90px;
+        height: 60px;
+    
+    } 
+
+
+}
+
+     
+
+/* Inicio de grid */
+
+#grilla{
+
+    display: grid;
+    grid-template-areas: 
+    "header header header"
+    "section section section"
+    "footer footer footer";
+    .header{
+        grid-area: header;
+      }
+    .section{
+        grid-area: section;
+      }
+    .footer{
+        grid-area:footer;
+      } 
+    
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+.body{
+  
+   background-color: #f3dbed;
+   
+}
+
+.div1{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content:space-between;
+    .div1__img{
+
+        width: 180px;
+        height: 140px;
+    
+    }
+    
+}   
+
+
+
+
+
+.nav{
+    
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+}
+    
+
+
+
+.section__article{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    .section__article--h1{
+    
+        font-size: 50px;
+        color: #000000;
+        text-align: center; 
+        margin-bottom: 20px;
+            
+    }
+    
+    .section__article--imgnuevas{
+        
+        width: 250px;
+        display:flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .section__article--p{
+    
+        font-size: 16px;
+        color: #000000;
+        border: 3px solid #000000 ;
+        text-align: center;
+        margin-bottom: 60px;
+        
+    }
+    
+} 
+
+
+
+.footer{
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    .footer__p{
+
+        font-size: 14px;
+        color: #000000;
+        border-bottom: 3px solid #000000;
+    
+    }
+    
+    .footer__img{
+        
+        display: none;
+        width: 60px;
+        height: 45px;
+    
+    }
+    
+    
+    .divfooter__img2{
+        
+        width: 40px;
+        height: 20px;
+    
+    } 
+    
+    
+}
+
+
+
+
+
+
+
+/* Inicio de grid en mediaq*/
+
+#grilla{
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+
+}
+
+}
+
+
+/* Fin del index */
+
+
+
