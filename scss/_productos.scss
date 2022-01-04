@@ -21,9 +21,8 @@
     
         margin-top: 100px;
         margin-left: 200px; 
-        width: 250px;
-        height: 170px;
-    
+        @include tamaño (250px,170px);
+
     }
         
 }
@@ -42,7 +41,7 @@
     
         .sectionp1__articlep--imgnuevas1{
 
-            width: 350px;
+            @include tamaño (350px,none);
             display:flex;
             flex-wrap: wrap;
             flex-direction: column;
@@ -58,9 +57,8 @@
                 margin-top: 80px;
                 margin-bottom: 100px;
                 padding-top: 15px;
-                padding-bottom: 0px; 
-                width: 350px;
-                height: 130px;
+                padding-bottom: 0px;
+                @include tamaño (350px,130px); 
                 font-size: 20px;
                 color: #000000;
                 border: 3px solid #000000 ;
@@ -73,8 +71,8 @@
     
     
         .sectionp2__articlep--imgnuevas2{
-    
-            width: 350px;
+            
+            @include tamaño (350px,none);
             display:flex;
             flex-wrap: wrap;
             flex-direction: column;
@@ -92,8 +90,7 @@
                 margin-bottom: 100px;
                 padding-top: 15px;
                 padding-bottom: 0px; 
-                width: 350px;
-                height: 130px;
+                @include tamaño (350px,130px); 
                 font-size: 20px;
                 color: #000000;
                 border: 3px solid #000000 ;
@@ -141,8 +138,7 @@
             margin-top: 0;
             margin-bottom: 30px;
             margin-left: 100px;
-            width: 180px;
-            height: 140px;
+            @include tamaño (180px,140px); 
             animation-name: opacar;
             animation-duration: 2s;
             animation-iteration-count: initial;
@@ -175,7 +171,7 @@
         
             .sectionp1__articlep--imgnuevas1{
     
-                width: 250px;
+                @include tamaño (250px,none); 
                 display:flex;
                 flex-wrap: wrap;
                 flex-direction: column;
@@ -188,8 +184,7 @@
                     }   
                 .sectionp1__articlep--p{
              
-                    width: 250px;
-                    height: 120px;
+                    @include tamaño (250px,120px); 
                     font-size: 15px;
                     color: #000000;
                     border: 3px solid #000000 ;
@@ -202,8 +197,8 @@
         
         
             .sectionp2__articlep--imgnuevas2{
-        
-                width: 250px;
+                
+                @include tamaño (250px,none); 
                 display:flex;
                 flex-wrap: wrap;
                 flex-direction: column;
@@ -216,9 +211,8 @@
                 
                 }
                 .sectionp2__articlep--p{
-         
-                    width: 250px;
-                    height: 120px;
+                    
+                    @include tamaño (250px,120px); 
                     font-size: 15px;
                     color: #000000;
                     border: 3px solid #000000 ;

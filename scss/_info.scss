@@ -21,9 +21,8 @@
     
         margin-top: 100px;
         margin-left: 158px;
-        width: 250px;
-        height: 170px;
-    
+        @include tamaño (250px,170px); 
+
     }
 
 }
@@ -94,8 +93,7 @@
         margin-top: 0;
         margin-bottom: 30px;
         margin-left: 100px;
-        width: 180px;
-        height: 140px;
+        @include tamaño (180px,140px); 
         animation-name: opacar;
         animation-duration: 2s;
         animation-iteration-count: initial;

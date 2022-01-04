@@ -1,6 +1,10 @@
 // Compiladores
 $colores: (negro: #000000, rosaclaro: #f3dbed, rosa: #f7a2e0);
 
+@mixin tamaño ($ancho, $altura) {
+    width: $ancho;
+    height: $altura;
+}
 
 *{
     font-family: 'Shippori Antique', sans-serif;
@@ -21,7 +25,7 @@ $colores: (negro: #000000, rosaclaro: #f3dbed, rosa: #f7a2e0);
 @import "nosotros";
 @import "info";
 @import "contacto";
-@import "compiladores";
+
 
 
 

@@ -154,8 +154,7 @@
     
     .articlec__imgc{
        
-        width: 280px;
-        height: 200px;
+        @include tamaño (280px,200px); 
     
     }
     
@@ -276,7 +275,7 @@
         color: #f3dbed;
         font-size: 14px;
         transition: all 0s;
-        width: 280px;
+        @include tamaño (280px,none); 
     
     }
        
@@ -338,11 +337,9 @@
     }
     
     .articlec__imgc{
-        
-        
+           
         margin-top: 50px;
-        width: 200px;
-        height: 140px;
+        @include tamaño (200px,140px); 
     
     }
        

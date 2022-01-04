@@ -21,8 +21,7 @@
      
         margin-top: 100px;
         margin-left: 190px;
-        width: 250px;
-        height: 170px;
+        @include tamaño (250px,170px); 
     
     }
 
@@ -53,8 +52,7 @@
         margin-left: 20px;
         margin-bottom: 80px;
         padding: 20px;
-        width: 450px;
-        height: 390px;
+        @include tamaño (450px,390px); 
         font-size: 20px;
         border: 3px solid #000000 ;
         color: #000000;
@@ -70,8 +68,9 @@
     }
     
     .videomusica{
-        width: 560px;
-        height: 315px;
+
+        @include tamaño (560px,315x); 
+        
     }
 
     .sectionn__articlen--h32{
@@ -120,8 +119,7 @@
         margin-top: 0;
         margin-bottom: 30px;
         margin-left: 100px;
-        width: 180px;
-        height: 140px;
+        @include tamaño (180px,140px); 
         animation-name: opacar;
         animation-duration: 2s;
         animation-iteration-count: initial;
@@ -160,8 +158,7 @@
     .sectionn__articlen--p{
         margin-left: 0;
         overflow-y: scroll;
-        width: 280px;
-        height: 450px;
+        @include tamaño (280px,450px); 
         font-size: 20px;
         border: 3px solid #000000 ;
         color: #000000;
@@ -179,8 +176,7 @@
             margin-top: 30px;   
             .videomusica{
 
-                width: 280px;
-                height: 180px;
+                @include tamaño (280px,180px); 
                 
             }
             .sectionn__articlen--h32{
