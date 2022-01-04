@@ -345,7 +345,13 @@
     border: 3px solid #000000;
     color: #000000; }
   .sectionn__articlen .section__articlen--div2 {
-    margin-top: 125px; }
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center; }
+  .sectionn__articlen .videomusica {
+    width: 560px;
+    height: 315px; }
   .sectionn__articlen .sectionn__articlen--h32 {
     margin-left: 20px;
     font-size: 20px;
@@ -387,19 +393,34 @@
     flex-direction: row;
     justify-content: center; }
     .sectionn__articlen--div1 .sectionn__articlen--h31 {
+      margin-left: 0;
       font-size: 35px;
       color: #000000;
       text-align: center;
       margin-bottom: 50px; }
     .sectionn__articlen--div1 .sectionn__articlen--p {
+      margin-left: 0;
       overflow-y: scroll;
       width: 280px;
       height: 450px;
       font-size: 20px;
       border: 3px solid #000000;
       color: #000000; }
-    .sectionn__articlen--div1 .section__articlen--div2 {
-      display: none; }
+  .section__articlen--div2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px; }
+    .section__articlen--div2 .videomusica {
+      width: 280px;
+      height: 180px; }
+    .section__articlen--div2 .sectionn__articlen--h32 {
+      margin-top: 5px;
+      margin-left: 0;
+      font-size: 15px;
+      color: #000000;
+      text-align: center; }
   /* Inicio de grid en mediaq*/
   #grilla {
     display: grid;
