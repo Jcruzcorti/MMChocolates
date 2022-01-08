@@ -5,7 +5,7 @@
 .body {
   background-color: #f3dbed; }
 
-/* Inicio del index */
+/* Inicio de index */
 .div1 {
   display: flex;
   flex-wrap: wrap;
@@ -154,8 +154,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; } }
 
-/* Fin del index */
-/* Inicio del producto*/
+/* Fin de index */
+/* Inicio de producto*/
 .divp {
   display: flex;
   flex-wrap: wrap;
@@ -303,8 +303,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; } }
 
-/* Fin del producto */
-/* Inicio del Nosotros */
+/* Fin de producto */
+/* Inicio de Nosotros */
 .divn {
   display: flex;
   flex-wrap: wrap;
@@ -430,8 +430,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; } }
 
-/* Fin del Nosotros */
-/* Inicio del Información */
+/* Fin de Nosotros */
+/* Inicio de Información */
 .divi {
   display: flex;
   flex-wrap: wrap;
@@ -527,8 +527,8 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; } }
 
-/* Fin del Información */
-/* Inicio del Contacto */
+/* Fin de Información */
+/* Inicio de Contacto */
 .divc {
   display: flex;
   flex-wrap: wrap;
@@ -720,4 +720,4 @@
     grid-template-columns: 1fr;
     grid-template-rows: 1fr; } }
 
-/* Fin del Contacto */
+/* Fin de Contacto */
