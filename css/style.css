@@ -460,14 +460,11 @@
   margin-top: 100px;
   list-style: disc; }
   .sectioni__articlei--ul .sectioni__articlei--ul--lii {
-    margin-bottom: 20px;
     font-size: 40px;
     color: #000000;
-    text-align: center;
-    text-decoration: underline;
-    text-decoration-color: #f7a2e0; }
+    text-align: center; }
   .sectioni__articlei--ul .pi {
-    margin-top: 20px;
+    margin-bottom: 10px;
     color: black;
     font-size: 20px;
     text-align: left; }
@@ -513,9 +510,7 @@
     .sectioni__articlei--ul .sectioni__articlei--ul--lii {
       font-size: 30px;
       color: #000000;
-      text-align: left;
-      text-decoration: underline;
-      text-decoration-color: #f7a2e0; }
+      text-align: left; }
     .sectioni__articlei--ul .pi {
       margin-top: 15px;
       color: black;
