@@ -154,14 +154,23 @@
     
     .articlec__imgc{
        
+        margin-top: 30px;
         @include tamaño (280px,200px); 
     
     }
     
     
     .articlec__h3c{
+        
+        margin-top: 15px;
+        font-size: 30px;
+        color: #000000;
+        text-decoration-line: underline;
     
-        margin-top: 40px;
+    } 
+
+    .articlec__h3c2{
+        
         font-size: 30px;
         color: #000000;
         text-decoration-line: underline;
@@ -350,6 +359,14 @@
         text-decoration-line: underline;
        
     }
+
+    .articlec__h3c2{
+        
+        font-size: 20px;
+        color: #000000;
+        text-decoration-line: underline;
+    
+    } 
 
 }
 

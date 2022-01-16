@@ -446,7 +446,7 @@
     text-align: center; }
   .divi .divi__img {
     margin-top: 100px;
-    margin-left: 158px;
+    margin-left: 155px;
     width: 250px;
     height: 170px; }
 
@@ -608,10 +608,15 @@
     color: #000000;
     font-size: 32px; }
   .articlec .articlec__imgc {
+    margin-top: 30px;
     width: 280px;
     height: 200px; }
   .articlec .articlec__h3c {
-    margin-top: 40px;
+    margin-top: 15px;
+    font-size: 30px;
+    color: #000000;
+    text-decoration-line: underline; }
+  .articlec .articlec__h3c2 {
     font-size: 30px;
     color: #000000;
     text-decoration-line: underline; }
@@ -706,6 +711,10 @@
       width: 200px;
       height: 140px; }
     .articlec .articlec__h3c {
+      font-size: 20px;
+      color: #000000;
+      text-decoration-line: underline; }
+    .articlec .articlec__h3c2 {
       font-size: 20px;
       color: #000000;
       text-decoration-line: underline; }
