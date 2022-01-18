@@ -12,10 +12,9 @@
         @include tamaño (250px,170px);
         
     }
-    
+
+
 }
-
-
 
 .nav{
 
@@ -25,6 +24,7 @@
     animation-duration: 2s;
     animation-iteration-count:initial;
     margin-bottom: 200px;
+    
     @keyframes opacar{
         0%{
             opacity: 0;
@@ -184,7 +184,12 @@
 
 .nav{
     
-    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: left;
+    justify-content: left;
+    margin-bottom: 50px;
     font-size: 20px;
     
 }

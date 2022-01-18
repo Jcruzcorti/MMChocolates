@@ -109,7 +109,12 @@
       width: 180px;
       height: 140px; }
   .nav {
-    margin-bottom: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: left;
+    justify-content: left;
+    margin-bottom: 50px;
     font-size: 20px; }
   .section__article {
     display: flex;
