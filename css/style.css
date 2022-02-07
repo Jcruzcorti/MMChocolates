@@ -458,16 +458,15 @@
 .sectioni__articlei--ul {
   display: flex;
   flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: left;
+  flex-direction: column;
+  justify-content: flex-start;
   margin-left: 50px;
   margin-bottom: 200px;
   margin-top: 100px;
   list-style: disc; }
   .sectioni__articlei--ul .sectioni__articlei--ul--lii {
     font-size: 40px;
-    color: #000000;
-    text-align: center; }
+    color: #000000; }
   .sectioni__articlei--ul .pi {
     margin-bottom: 10px;
     color: black;
