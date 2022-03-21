@@ -11,13 +11,13 @@ class Producto {
         this.producto = producto.toLowerCase();
 
 
-        if (this.peso=="1/4 kg", this.peso=="1/4kg", this.peso=="1/4"){
+        if ((this.peso=="1/4 kg") || (this.peso=="1/4kg") || (this.peso=="1/4")){
             alert("Tu pedido tiene un valor de $700");
         }
-        else if (this.peso=="1/2 kg", this.peso=="1/2kg", this.peso=="1/2"){
+        else if ((this.peso=="1/2 kg") || (this.peso=="1/2kg") || (this.peso=="1/2")){
             alert("Tu pedido tiene un valor de $1400");
         }
-        else if (this.peso=="1 kg", this.peso=="1kg", this.peso=="1"){
+        else if ((this.peso=="1 kg") || (this.peso=="1kg") || (this.peso=="1")){
             alert("Tu pedido tiene un valor de $2800");
         }
     }
