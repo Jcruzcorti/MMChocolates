@@ -1,10 +1,9 @@
 // Inicio de Javascript
 
-
-
 alert("A continuación si así lo deseas, deberás elegir tu pedido");
 
-class Producto1 {
+// objeto producto
+class Producto {
 
     constructor (nombre, peso, producto,){
 
@@ -37,8 +36,8 @@ class Producto1 {
 
 }
 
-
-let producto1 = new Producto1 (prompt("Ingresa tu nombre y apellido por favor"), prompt("Ingresa el peso en bombones que quieres adquirir (1/4 kg, 1/2 kg, o 1 kg)"), prompt("Ingresa la variedad de bombones que quieres comprar (semi-amargos, dulces, y/o blancos)"));
+// primer pedido
+let producto1 = new Producto (prompt("Ingresa tu nombre y apellido por favor"), prompt("Ingresa el peso en bombones que quieres adquirir (1/4 kg, 1/2 kg, o 1 kg)"), prompt("Ingresa la variedad de bombones que quieres comprar (semi-amargos, dulces, y/o blancos)"));
 
 for (const productos1 in producto1) {
     console.log(producto1[productos1]);
@@ -49,8 +48,8 @@ console.log(producto1.pedido1());
 
 
 
-
-let producto2 = new Producto1 (prompt("Ingresa tu nombre y apellido por favor"), prompt("Ingresa el peso en bombones que quieres adquirir (1/4 kg, 1/2 kg, o 1 kg)"), prompt("Ingresa la variedad de bombones que quieres comprar (semi-amargos, dulces, y/o blancos)"));
+// segundo pedido
+let producto2 = new Producto (prompt("Ingresa tu nombre y apellido por favor"), prompt("Ingresa el peso en bombones que quieres adquirir (1/4 kg, 1/2 kg, o 1 kg)"), prompt("Ingresa la variedad de bombones que quieres comprar (semi-amargos, dulces, y/o blancos)"));
 
 for (const productos2 in producto2) {
     console.log(producto2[productos2]);
@@ -60,16 +59,12 @@ alert(producto2.pedido());
 console.log(producto2.pedido1());
 
 
-
-
-
+// ARRAY 
 const pedidos = [producto1, producto2];
 
 
-
-
-
-let producto3 = new Producto1 (prompt("Ingresa tu nombre y apellido por favor"), prompt("Ingresa el peso en bombones que quieres adquirir (1/4 kg, 1/2 kg, o 1 kg)"), prompt("Ingresa la variedad de bombones que quieres comprar (semi-amargos, dulces, y/o blancos)"));
+// nuevo pedido agregado a último momento, con método push
+let producto3 = new Producto (prompt("Ingresa tu nombre y apellido por favor"), prompt("Ingresa el peso en bombones que quieres adquirir (1/4 kg, 1/2 kg, o 1 kg)"), prompt("Ingresa la variedad de bombones que quieres comprar (semi-amargos, dulces, y/o blancos)"));
 
 for (const productos3 in producto3) {
     console.log(producto3[productos3]);
@@ -81,7 +76,13 @@ console.log(producto3.pedido1());
 
 
 
+// pusheamos nuevo pedido al array
+pedidos.push(producto3);
 
-pedidos.push(new Producto1(producto3));
+// método de búsqueda y transformación forEach
+pedidos.forEach( (Producto)=> {
+    console.log(Producto)
+} )
 
+// mostramos por consola todos los pedidos
 console.log(pedidos);
