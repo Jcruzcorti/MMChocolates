@@ -42,8 +42,7 @@ class Producto {
 let producto1 = new Producto (prompt("Ingresa tu nombre y apellido por favor"), prompt("Ingresa el peso en bombones que quieres adquirir (1/4 kg, 1/2 kg, o 1 kg)"), prompt("Ingresa la variedad de bombones que quieres comprar (semi-amargos, dulces, y/o blancos)"));
 
 
-
-
+// función
 function Iterador(producto1){
 
 	for(let productos1 in producto1){
@@ -54,22 +53,15 @@ function Iterador(producto1){
 
 }
 
-
 Iterador(producto1)
-// for (const productos1 in producto1) {
-//     console.log(producto1[productos1]);
-// }
 
 alert(producto1.pedido());
-// console.log(producto1.pedido1());
-
-
 
 // segundo pedido
 let producto2 = new Producto (prompt("Ingresa tu nombre y apellido por favor"), prompt("Ingresa el peso en bombones que quieres adquirir (1/4 kg, 1/2 kg, o 1 kg)"), prompt("Ingresa la variedad de bombones que quieres comprar (semi-amargos, dulces, y/o blancos)"));
 
 
-
+// función
 function Iterador(producto2){
 
 	for(let productos2 in producto2){
@@ -81,12 +73,10 @@ function Iterador(producto2){
 }
 
 Iterador(producto2)
-// for (const productos2 in producto2) {
-//     console.log(producto2[productos2]);
-// }
+
 
 alert(producto2.pedido());
-// console.log(producto2.pedido1());
+
 
 
 // ARRAY 
@@ -97,7 +87,7 @@ const pedidos = [producto1, producto2];
 let producto3 = new Producto (prompt("Ingresa tu nombre y apellido por favor"), prompt("Ingresa el peso en bombones que quieres adquirir (1/4 kg, 1/2 kg, o 1 kg)"), prompt("Ingresa la variedad de bombones que quieres comprar (semi-amargos, dulces, y/o blancos)"));
 
 
-
+// función
 function Iterador(producto3){
 
 	for(let productos3 in producto3){
@@ -108,16 +98,8 @@ function Iterador(producto3){
 
 }
 
-// Iterador(producto3)
-// for (const productos3 in producto3) {
-//     console.log(producto3[productos3]);
-// }
 
-
-
-alert(producto3.pedido());
-// console.log(producto3.pedido1());
-
+Iterador(producto3)
 
 
 
@@ -134,5 +116,4 @@ console.log(pedidos);
 
 
 
-
-
+// ---------
