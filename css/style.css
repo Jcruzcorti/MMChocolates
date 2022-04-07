@@ -590,7 +590,19 @@
     flex-wrap: wrap;
     flex-direction: column;
     align-content: flex-start; }
+  .articlec #entrada {
+    margin-top: 20px;
+    background-color: #000000;
+    color: #f3dbed;
+    font-size: 18px;
+    transition: all 0s; }
   .articlec input, .articlec textarea {
+    margin-top: 20px;
+    background-color: #000000;
+    color: #f3dbed;
+    font-size: 18px;
+    transition: all 0s; }
+  .articlec #botoncontacto1, .articlec #botoncontacto2 {
     margin-top: 20px;
     background-color: #000000;
     color: #f3dbed;

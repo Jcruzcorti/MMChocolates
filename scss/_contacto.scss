@@ -104,6 +104,14 @@
     
     }
     
+    #entrada{
+        margin-top: 20px;
+        background-color: #000000;
+        color: #f3dbed;
+        font-size: 18px;
+        transition: all 0s;
+    }
+
     input,textarea{
     
         margin-top: 20px;
@@ -114,6 +122,15 @@
     
     }
     
+    #botoncontacto1,#botoncontacto2{
+
+        margin-top: 20px;
+        background-color: #000000;
+        color: #f3dbed;
+        font-size: 18px;
+        transition: all 0s;
+    }
+
     input:focus{
     
         font-size: 22px;
