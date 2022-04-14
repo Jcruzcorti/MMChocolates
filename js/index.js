@@ -15,8 +15,3 @@ alert(body.innerText);
 
 
 
-// localStorage.setItem("Bienvenida","Hola que onda wacho")
-
-// let saludo = localStorage.getItem("Bienvenida")
-
-// console.log(saludo);
