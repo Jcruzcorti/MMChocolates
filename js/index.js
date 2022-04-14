@@ -8,3 +8,15 @@ body.innerText = ("Bienvenido/a a MM Chocolates, que disfrutes tu experiencia co
 alert(body.innerText);
 
 
+
+
+// -------
+
+
+
+
+// localStorage.setItem("Bienvenida","Hola que onda wacho")
+
+// let saludo = localStorage.getItem("Bienvenida")
+
+// console.log(saludo);
