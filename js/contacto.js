@@ -1,9 +1,10 @@
 // Inicio de Javascript
 
 
-alert("A continuación si así lo deseas, podrás realizar tu pedido");
+// alert("A continuación si así lo deseas, podrás realizar tu pedido");
 
 const btn = document.getElementById ("botoncontacto1")
+
 
 let input = document.getElementById ("entrada")
 
@@ -13,6 +14,7 @@ let datos3 = document.getElementById ("input3")
 
 btn.addEventListener("click", (e)  => {
 
+
     e.preventDefault();
     
     console.log(datos1.value)
@@ -20,8 +22,17 @@ btn.addEventListener("click", (e)  => {
     console.log(datos3.value)
     
     console.log("El pedido del cliente es: " + input.value);
-})
 
+
+    Swal.fire({
+        position: "top-end", 
+        icon: "success",
+        title: "Su mensaje ha sido enviado",
+        showConfirmButton: false,
+        timer: 3000
+      })
+
+})
 
 
 // --------
@@ -39,3 +50,8 @@ let primerPedido = localStorage.getItem("pedido") || new Date()
 primerPedido ? console.log ("La fecha del pedido es: ", primerPedido) : localStorage.setItem("pedido",new Date()) 
 
 let jsonVariable = JSON.stringify(primerPedido)
+
+
+
+// --------
+
