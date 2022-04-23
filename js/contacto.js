@@ -1,7 +1,11 @@
 // Inicio de Javascript
 
 
-// alert("A continuación si así lo deseas, podrás realizar tu pedido");
+Swal.fire({
+  title: "MM Chocolates",
+  text: "A continuación si así lo deseas, podrás realizar tu pedido",
+  confirmButtonText: "Aceptar",
+});
 
 const btn = document.getElementById ("botoncontacto1")
 
