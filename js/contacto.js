@@ -42,11 +42,6 @@ Swal.fire({
 // --------
 
 
-
-
-// A continuación, se verán los datos del primer pedido: 
-
-
 let primerPedido = localStorage.getItem("pedido") || new Date()
 
 primerPedido ? console.log ("La fecha del pedido es: ", primerPedido) : localStorage.setItem("pedido",new Date()) 
@@ -83,6 +78,14 @@ document.getElementById('form')
         
     }, (err) => {
       btn.value = 'Enviar mensaje';
+      
       alert(JSON.stringify(err));
     });
 });
+
+
+
+
+
+
+
