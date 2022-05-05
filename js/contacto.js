@@ -7,36 +7,6 @@ Swal.fire({
   confirmButtonText: "Aceptar",
 });
 
-// const btn = document.getElementById ("botoncontacto1")
-
-
-// let input = document.getElementById ("entrada")
-
-// let datos1 = document.getElementById ("input1")
-// let datos2 = document.getElementById ("input2")
-// let datos3 = document.getElementById ("input3")
-
-// btn.addEventListener("click", (e)  => {
-
-
-//     e.preventDefault();
-    
-//     console.log(datos1.value)
-//     console.log(datos2.value)
-//     console.log(datos3.value)
-    
-//     console.log("El pedido del cliente es: " + input.value);
-
-
-//     Swal.fire({
-//         position: "top-end", 
-//         icon: "success",
-//         title: "Su mensaje ha sido enviado",
-//         showConfirmButton: false,
-//         timer: 3000
-//       })
-
-// })
 
 
 // --------
