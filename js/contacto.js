@@ -33,7 +33,7 @@ Swal.fire({
      btn.value = 'Enviando mensaje...';
   
      const serviceID = 'default_service';
-     const templateID = 'template_evfkc1n';
+    //  const templateID = 'template_evfkc1n';
   
      emailjs.sendForm(serviceID, templateID, this)
       .then(() => {
